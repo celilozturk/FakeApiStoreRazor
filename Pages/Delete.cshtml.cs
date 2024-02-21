@@ -12,15 +12,25 @@ namespace MyApp.Namespace
         {
             _httpClientFactory = httpClientFactory;
         }
-
-        public async void OnGet(int id)
+        [BindProperty]
+        public Product Product { get; set; }
+        public async Task OnGet(int id)
         {
             HttpClient httpClient= _httpClientFactory.CreateClient("BaseURL");
-            var product= await httpClient.GetFromJsonAsync<Product>($"/products/{id}");
-            
+             Product= await httpClient.GetFromJsonAsync<Product>($"/products/{id}");
+          //  if(product!=null) Product=product;
         }
         public async Task<IActionResult> OnPost(){
-
+                HttpClient httpClient= _httpClientFactory.CreateClient("BaseURL");
+              using var response= await httpClient.DeleteAsync($"/products/{Product.id}");
+              if(response.IsSuccessStatusCode){
+                TempData["message"]="Product was deleted successfully.";
+                return RedirectToPage("Index");
+              }
+              else{
+                 TempData["message"]="Something went wrong!";
+                return RedirectToPage("Index");
+              }
         }
     }
 }

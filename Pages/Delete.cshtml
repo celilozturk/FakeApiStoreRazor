@@ -2,3 +2,15 @@
 @model MyApp.Namespace.DeleteModel
 @{
 }
+
+<form method="post">
+    <input type="hidden" asp-for="Product.id" />
+    <label asp-for="Product.title"></label>
+    <input asp-for="Product.title" disabled /><br/>
+    <label asp-for="Product.category"></label>
+    <input asp-for="Product.category" disabled/><br/>
+    <label asp-for="Product.price"></label>
+    <input  asp-for="Product.price"disabled /><br/>
+    <button type="submit" class="btn btn-warning">Delete</button>
+    <a asp-page="Index" class="btn btn-primary" />Back To Homepage </a>
+</form>
