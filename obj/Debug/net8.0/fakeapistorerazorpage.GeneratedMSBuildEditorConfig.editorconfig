@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = d:\dev\web\Razor Pages\FakeApiStoreRazor
 build_property._RazorSourceGeneratorDebug = 
 
+[d:/dev/web/Razor Pages/FakeApiStoreRazor/Pages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [d:/dev/web/Razor Pages/FakeApiStoreRazor/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
