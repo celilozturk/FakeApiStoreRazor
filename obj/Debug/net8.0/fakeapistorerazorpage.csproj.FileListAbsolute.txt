@@ -28,3 +28,4 @@ D:\dev\web\Razor Pages\FakeApiStoreRazor\obj\Debug\net8.0\refint\fakeapistoreraz
 D:\dev\web\Razor Pages\FakeApiStoreRazor\obj\Debug\net8.0\fakeapistorerazorpage.pdb
 D:\dev\web\Razor Pages\FakeApiStoreRazor\obj\Debug\net8.0\fakeapistorerazorpage.genruntimeconfig.cache
 D:\dev\web\Razor Pages\FakeApiStoreRazor\obj\Debug\net8.0\ref\fakeapistorerazorpage.dll
+d:\dev\web\Razor Pages\FakeApiStoreRazor\obj\Debug\net8.0\fakeapistorerazorpage.sourcelink.json
