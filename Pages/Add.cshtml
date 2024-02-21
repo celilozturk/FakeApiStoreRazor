@@ -3,15 +3,28 @@
 @{
 }
 <div class="">
-<form method="post">
-    <label asp-for="Product.title"></label>
-    <input asp-for="Product.title" /><br/>
-    <label asp-for="Product.description"></label>
-    <input asp-for="Product.description" /><br/>
-    <label asp-for="Product.category"></label>
-    <input asp-for="Product.category" /><br/>
+    <form method="post">
+        <div class="mb-4">
+            <label asp-for="Product.title"></label>
+            <input asp-for="Product.title" /><br />
+            <span asp-validation-for="Product.title" class="text-danger"></span>
+        </div>
+        <div class="mb-4">
+            <label asp-for="Product.description"></label>
+            <input asp-for="Product.description" /><br />
+            <span asp-validation-for="Product.description" class="text-danger"></span>
 
-    <button type="submit">Save</button>
-    <a asp-page="Index" >Back to Home</a>
-</form>
+        </div>
+
+        <div class="mb-4">
+            <label asp-for="Product.category"></label>
+            <input asp-for="Product.category" /><br />
+            <span asp-validation-for="Product.category" class="text-danger"></span>
+
+        </div>
+
+
+        <button type="submit">Save</button>
+        <a asp-page="Index">Back to Home</a>
+    </form>
 </div>

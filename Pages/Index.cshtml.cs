@@ -1,3 +1,4 @@
+using System.Text.Json;
 using FakeApiStoreRazor.Pages.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -18,9 +19,12 @@ public class IndexModel : PageModel
     public async Task OnGet()
     {
         var httpClient= _httpClientFactory.CreateClient("BaseURL");
-        var products=await httpClient.GetFromJsonAsync<IEnumerable<Product>>("/products");
-        if(products!=null)
-        Products=products.ToList();
+        var response= await httpClient.GetAsync("/products");
+             var content=await  response.Content.ReadAsStreamAsync();
+                   Products= await JsonSerializer.DeserializeAsync<List<Product>>(content);
+    //    // var products=await httpClient.GetFromJsonAsync<IEnumerable<Product>>("/products");
+    //     if(products!=null)
+    //     Products=products.ToList();
        // await System.Console.Out.WriteLineAsync(response.ToString());
     }
 }

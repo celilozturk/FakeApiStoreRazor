@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("fakeapistorerazorpage")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d2b4c025de08a9ba98da1d53e35e1a33d038767")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fcc3c80faf95befcf10339d3036e139ee1239c8a")]
 [assembly: System.Reflection.AssemblyProductAttribute("fakeapistorerazorpage")]
 [assembly: System.Reflection.AssemblyTitleAttribute("fakeapistorerazorpage")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
