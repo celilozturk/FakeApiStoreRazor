@@ -5,12 +5,23 @@
 
 <form method="post">
     <input type="hidden" asp-for="Product.id" />
-    <label asp-for="Product.title"></label>
-    <input type="text" asp-for="Product.description" /><br/>
-    <label  asp-for="Product.category"></label>
-    <input type="text" asp-for="Product.category" /><br/>
-    <label asp-for="Product.price"></label>
-    <input type="number" asp-for="Product.price" /><br/>
+    <div class="mb-4">
+        <label asp-for="Product.title"></label>
+        <input type="text" asp-for="Product.description" /><br />
+         <span asp-validation-for="Product.description" class="text-danger"></span>
+
+    </div>
+    <div class="mb-4">
+        <label asp-for="Product.category"></label>
+        <input type="text" asp-for="Product.category" /><br />
+        <span asp-validation-for="Product.category" class="text-danger"></span>
+
+    </div>
+    <div class="mb-4">
+        <label asp-for="Product.price"></label>
+        <input type="number" asp-for="Product.price" /><br />
+        <span asp-validation-for="Product.price" class="text-danger"></span>
+    </div>
     <button type="submit" class="btn btn-warning">Update</button>
     <a asp-page="Index" class="btn btn-primary" />Back To Homepage </a>
 </form>
