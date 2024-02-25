@@ -19,10 +19,13 @@ namespace MyApp.Namespace
         public async Task OnGet(int id)
         {
             HttpClient httpClient=_httpClientFactory.CreateClient("BaseURL");
-            var product= await httpClient.GetFromJsonAsync<Product>($"/products/{id}");
-           if(product!=null) {
-            Product=product;
-           }
+            using var response= await httpClient.GetAsync($"/products/{id}");
+             var content=await response.Content.ReadAsStreamAsync();
+             Product= JsonSerializer.Deserialize<Product>(content);
+           // var product= await httpClient.GetFromJsonAsync<Product>($"/products/{id}");
+        //    if(product!=null) {
+        //     Product=product;
+        //    }
         }
 
         public async Task<IActionResult> OnPost(){
