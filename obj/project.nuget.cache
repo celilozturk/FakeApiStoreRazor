@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X4YTK49EAC7tL4IqHVRJ97IhtKwrXuGDSJWVkY7sxknvbv0TpH7BB/GRYfTCu+NLlSZBBZEMXsbw1cWexKguJw==",
+  "dgSpecHash": "/xHr4BJoYVpNf5lrmKN8G/WiYVKl69G7wsw4QJMJwq7hEWiFiZIbOzVyFmqqop6Y4oIkVC6YFpjo7ZvB8s4LEw==",
   "success": true,
-  "projectFilePath": "D:\\dev\\web\\Razor Pages\\FakeApiStoreRazor\\fakeapistorerazorpage.csproj",
+  "projectFilePath": "d:\\dev\\web\\Razor Pages\\FakeApiStoreRazor\\fakeapistorerazorpage.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
