@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\dev\\web\\Razor Pages\\FakeApiStoreRazor\\fakeapistorerazorpage.csproj": {}
+    "D:\\dev\\web\\Razor Pages\\FakeApiStoreRazor\\fakeapistorerazorpage.csproj": {}
   },
   "projects": {
-    "d:\\dev\\web\\Razor Pages\\FakeApiStoreRazor\\fakeapistorerazorpage.csproj": {
+    "D:\\dev\\web\\Razor Pages\\FakeApiStoreRazor\\fakeapistorerazorpage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\dev\\web\\Razor Pages\\FakeApiStoreRazor\\fakeapistorerazorpage.csproj",
+        "projectUniqueName": "D:\\dev\\web\\Razor Pages\\FakeApiStoreRazor\\fakeapistorerazorpage.csproj",
         "projectName": "fakeapistorerazorpage",
-        "projectPath": "d:\\dev\\web\\Razor Pages\\FakeApiStoreRazor\\fakeapistorerazorpage.csproj",
+        "projectPath": "D:\\dev\\web\\Razor Pages\\FakeApiStoreRazor\\fakeapistorerazorpage.csproj",
         "packagesPath": "C:\\Users\\celil\\.nuget\\packages\\",
-        "outputPath": "d:\\dev\\web\\Razor Pages\\FakeApiStoreRazor\\obj\\",
+        "outputPath": "D:\\dev\\web\\Razor Pages\\FakeApiStoreRazor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\celil\\AppData\\Roaming\\NuGet\\NuGet.Config",

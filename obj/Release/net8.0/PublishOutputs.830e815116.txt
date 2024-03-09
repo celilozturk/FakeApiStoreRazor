@@ -1,0 +1,7 @@
+D:\dev\web\Razor Pages\FakeApiStoreRazor\bin\Publish\fakeapistorerazorpage.exe
+D:\dev\web\Razor Pages\FakeApiStoreRazor\bin\Publish\appsettings.Development.json
+D:\dev\web\Razor Pages\FakeApiStoreRazor\bin\Publish\appsettings.json
+D:\dev\web\Razor Pages\FakeApiStoreRazor\bin\Publish\fakeapistorerazorpage.dll
+D:\dev\web\Razor Pages\FakeApiStoreRazor\bin\Publish\fakeapistorerazorpage.deps.json
+D:\dev\web\Razor Pages\FakeApiStoreRazor\bin\Publish\fakeapistorerazorpage.runtimeconfig.json
+D:\dev\web\Razor Pages\FakeApiStoreRazor\bin\Publish\fakeapistorerazorpage.pdb

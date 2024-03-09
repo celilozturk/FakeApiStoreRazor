@@ -19,8 +19,8 @@ public class IndexModel : PageModel
     public async Task OnGet()
     {
         var httpClient= _httpClientFactory.CreateClient("BaseURL");
-        var response= await httpClient.GetAsync("/products");
-             var content=await  response.Content.ReadAsStreamAsync();
+        using var response= await httpClient.GetAsync("/products");
+          using var content=await  response.Content.ReadAsStreamAsync();
                    Products= await JsonSerializer.DeserializeAsync<List<Product>>(content);
     //    // var products=await httpClient.GetFromJsonAsync<IEnumerable<Product>>("/products");
     //     if(products!=null)
